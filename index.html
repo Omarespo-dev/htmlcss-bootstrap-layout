@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="container text-center">
-            <div class="row ">
+            <div class="row text-center ">
               <div class="col bg-white">
                 <h1>Bootstrap 5 Responsive Grid</h1>
                 <p>Layout a griglia con diversi breakpoint (sm,md,lg).</p>
@@ -25,12 +25,12 @@
 
     <main>
         <div class="container text-start">
-            <div class="row row-cols-1 ">
-              <div class="col bg-body-secondary p-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 ">
+              <div class="col col-lg-4 bg-body-secondary p-4 p-md-3 ">
                 <h2>Colonna 1</h2>
                 <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e due terzi su dispositivi grandi.</p>
               </div>
-              <div class="col bg-secondary bg-gradient text-white p-4">
+              <div class="col col-lg-8 bg-secondary bg-gradient text-white p-4 p-md-3">
                 <h2>Colonna 2</h2>
                 <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e due terzi su dispositivi grandi.</p>
               </div>
@@ -39,40 +39,39 @@
         </div>
         
         <div class="container text-start">
-            <div class="row text-white">
-              <div class="col bg-primary bg-gradient p-3 ">
+            <div class="row row-cols-2  row-cols-md-3 text-white">
+              <div class="col   bg-primary bg-gradient p-3 ">
                 <h2>Colonna 1</h2>
                 <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
               </div>
-              <div class="col bg-success bg-gradient p-3">
+              <div class="col  bg-success bg-gradient p-3">
                 <h2>Colonna 2</h2>
                 <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
               </div>
-              
-            </div>
-            <div class="row text-white ">
-              <div class="col-12 bg-danger bg-gradient p-3">
+              <div class="col-12  bg-danger bg-gradient p-3">
                 <h2>Colonna 3</h2>
                 <p>Larghezza intera su dispositivi piccoli (col-12) e un terzo su dispositivi medi e più grandi.</p>
               </div>
+              
             </div>
+           
         </div>
 
-        <div class="container text-start">
-            <div class="row row-cols-2 text-white">
-              <div class="col bg-info bg-gradien p-3">
+        <div class="container text-start  ">
+            <div class="row row-cols-2 row-cols-md-4  row-cols-lg-4 text-white">
+              <div class="col col-media bg-info bg-gradien p-4">
                 <h2>Colonna 1</h2>
                 <p>Metà larghezza su dispositivi piccoli e un quarto su dispositivi medi e più grandi.</p>
               </div>
-              <div class="col bg-warning bg-gradient p-3">
+              <div class="col col-media bg-warning bg-gradient p-4">
                 <h2>Colonna 2</h2>
                 <p>Metà larghezza su dispositivi piccoli e un quarto su dispositivi medi e più grandi.</p>
               </div>
-              <div class="col bg-black bg-gradient p-3">
+              <div class="col col-media bg-black bg-gradient p-4 ">
                 <h2>Colonna 3</h2>
                 <p>Metà larghezza su dispositivi piccoli e un quarto su dispositivi medi e più grandi.</p>
               </div>
-              <div class="col bg-body-secondary text-black p-3">
+              <div class="col col-media bg-body-secondary text-black p-4">
                 <h2>Colonna 4</h2>
                 <p>Metà larghezza su dispositivi piccoli e un quarto su dispositivi medi e più grandi.</p>
               </div>
